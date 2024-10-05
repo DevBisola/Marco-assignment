@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    
+}
+
+.div{
+    background-image: url(soldier.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    margin-left: -40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.details {
+    display: flex;
+    margin-top: 12px;
+    margin-right:5%;
+    font-size: 20px;
+    
+}
+
+.socials p {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 2px;
+    margin-top:5%;
+    border-radius: 5px;
+}
+
+.details p {
+    margin: 25px; 
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: 200;
+    margin-top: 7px;
+}
+
+
+.bodi {
+    text-align: center;
+    color: white;
+
+}
+
+.bodi .mac {
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -100px;
+
+}
+
+.img{
+    justify-content: right;
+    height: 60%;
+    width: 40px;
+}
+
+.bodi .spi {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    margin-top: -200px;
+    font-weight: 200px;
+
+
+}
+
+.content{
+    margin-left: 30px;
+    color: white;
+}
+
+.word {
+    /* border: 1px solid black; */
+    max-width: 50%;
+}
+
+
+.more{
+margin-top: 15px;
+}
+
+@media screen and (min-width:360px) {
+    .socials{
+        margin-left: 10%; 
+    
+    }   
+}
+
+@media screen and (min-width:840px) {
+    .socials{
+        margin-left: -5%;
+    }
+}
